@@ -642,6 +642,57 @@ body {
     cursor: pointer;
 }
 
+/* For screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    .section3 {
+        padding: 20px; /* Reduce padding */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .section3Row1 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        padding: 20px; /* Adjust padding */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .section3Row1text {
+        width: auto; /* Allow width to adjust based on content */
+        font-size: 36px; /* Reduce font size */
+        text-align: center; /* Center text */
+        margin-bottom: 20px; /* Add some space between text and button */
+    }
+
+    .section3Row1Button {
+        width: auto; /* Allow width to adjust based on content */
+        font-size: 20px; /* Reduce font size */
+        margin-bottom: 20px; /* Add some space between button and next section */
+    }
+
+    .section3row2 {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        margin-top: 40px; /* Adjust margin */
+    }
+
+    .connectBox1 {
+        width: 100%; /* Occupy full width */
+        margin-bottom: 40px; /* Add some space between connect boxes */
+    }
+
+    .content {
+        width: 100%; /* Occupy full width */
+    }
+
+    .contentParagraph {
+        width: 100%; /* Occupy full width */
+    }
+
+    .contentButton {
+        width: auto; /* Allow width to adjust based on content */
+    }
+}
+
 .section4 {
     display: flex;
     flex-direction: column;
