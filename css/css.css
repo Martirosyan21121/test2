@@ -7,11 +7,11 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 100vw;
-    width: 100%;
     align-items: center;
     isolation: isolate;
     height: auto;
     background: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 89.63%);
+
 }
 
 .header {
@@ -351,7 +351,6 @@ body {
     align-items: flex-start;
     padding: 40px 40px;
     max-width: 100vw;
-    width: 100%;
     height: 776px;
     background: #0F172A;
     border-width: 1px 0;
@@ -453,15 +452,57 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+@media only screen and (min-width: 1500px) {
+    .section3row2{
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        justify-self: center;
+        gap: 100px;
+        height: 64px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+}
 
+@media only screen and (min-width: 1700px) {
+    .section3row2{
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        justify-self: center;
+        gap: 200px;
+        height: 64px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+}
 
+@media only screen and (min-width: 2000px) {
+    .section3row2{
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px;
+        justify-self: center;
+        gap: 350px;
+        height: 64px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+}
 .s3back {
     position: absolute;
     height: 527px;
-    bottom: auto;
-    padding: 10px 10px;
+    width: 100%;
+    max-width: 100vw;
     right: 0;
-    left: 10px;
+    bottom: auto;
     margin-top: -30px;
     flex: none;
     order: 0;
@@ -1036,7 +1077,7 @@ body {
     left: 0;
     max-width: 100vw;
     width: 100%;
-    height: 996px;
+    height: auto;
     flex: none;
     order: 7;
     align-self: stretch;
@@ -1286,6 +1327,7 @@ body {
     gap: 80px;
     isolation: isolate;
     max-width: 100vw;
+    width: 100%;
     height: 717px;
     background: #78350F;
     flex: none;
@@ -1317,7 +1359,8 @@ body {
     align-items: flex-start;
     padding: 0;
     gap: 32px;
-    width: auto;
+    max-width: 100vw;
+    width: 100%;
     height: 176px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.07));
