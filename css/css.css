@@ -334,6 +334,36 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+/* For screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    .section2 {
+        padding: 20px; /* Reduce padding */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .group {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        gap: 20px; /* Reduce gap between items */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .group1 {
+        width: 100%; /* Occupy full width */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .groupText {
+        width: auto; /* Allow width to adjust based on content */
+        text-align: center; /* Center text */
+    }
+
+    .groupParagraph {
+        width: auto; /* Allow width to adjust based on content */
+        text-align: center; /* Center text */
+    }
+}
+
 
 .section3 {
     box-sizing: border-box;
@@ -443,6 +473,7 @@ body {
     align-self: stretch;
     flex-grow: 0;
 }
+
 
 .s3back {
     position: absolute;
