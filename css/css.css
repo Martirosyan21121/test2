@@ -662,15 +662,30 @@ body {
     position: absolute;
     width: 85px;
     height: 86px;
-    left: 750px;
-    margin-top: 0;
-    background: #15803D;
+    left: 800px;
+    background-color: #0c4128;
+    margin-top: 25%;
     opacity: 0.75;
     border-radius: 50px;
     flex: none;
     order: 3;
     flex-grow: 0;
     z-index: 3;
+}
+
+.s4img {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 520px;
+    height: 350px;
+    margin-top: -20px;
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+    z-index: 2;
 }
 
 .containerCol {
