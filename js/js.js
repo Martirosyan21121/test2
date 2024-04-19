@@ -26,3 +26,14 @@ carousel.addEventListener("mousemove", (e) => {
     const walk = x - startX;
     carousel.scrollLeft = scrollLeft - walk;
 });
+
+const prevButton = document.querySelector(".prev-button");
+const nextButton = document.querySelector(".next-button");
+
+prevButton.addEventListener("click", () => {
+    carousel.scrollLeft -= carousel.offsetWidth;
+});
+
+nextButton.addEventListener("click", () => {
+    carousel.scrollLeft += carousel.offsetWidth;
+});
