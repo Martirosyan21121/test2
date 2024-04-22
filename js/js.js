@@ -38,6 +38,7 @@ $(document).ready(function() {
     $nextButton.on("click", function() {
         $carousel.scrollLeft($carousel.scrollLeft() + $carousel.outerWidth());
     });
+
     $(".menu").click(function (){
         alert("Message")
     })
