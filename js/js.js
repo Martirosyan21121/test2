@@ -41,6 +41,3 @@ $('#menu').click(function (){
     alert("Menu button")
 })
 
-$('#menu').click(function (){
-    alert("Menu button")
-})
