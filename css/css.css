@@ -61,22 +61,13 @@ body {
     flex-grow: 0;
 }
 
-@media screen and (max-width: 726px){
-    .buttons-group{
-       display: none;
-    }
-    .menuScale{
-        display: flex;
-    }
+.menu{
+    border: none;
+    background-color: #FFFBEB;
 }
 
-@media screen and (min-width: 726px){
-    .buttons-group{
-        display: flex;
-    }
-    .menuScale{
-        display: none;
-    }
+.menu:hover{
+    background-color: rgba(120, 53, 15, 0.45);
 }
 
 .menu-item {
