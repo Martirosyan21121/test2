@@ -37,3 +37,10 @@ prevButton.addEventListener("click", () => {
 nextButton.addEventListener("click", () => {
     carousel.scrollLeft += carousel.offsetWidth;
 });
+$('#menu').click(function (){
+    alert("Menu button")
+})
+
+$('#menu').click(function (){
+    alert("Menu button")
+})

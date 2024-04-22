@@ -61,6 +61,24 @@ body {
     flex-grow: 0;
 }
 
+@media screen and (max-width: 726px){
+    .buttons-group{
+       display: none;
+    }
+    .menuScale{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 726px){
+    .buttons-group{
+        display: flex;
+    }
+    .menuScale{
+        display: none;
+    }
+}
+
 .menu-item {
     width: auto;
     height: auto;
